@@ -1,5 +1,5 @@
 const angular = require("angular")
-const bob = angular.module("atividade04", [require("angular-route")]);
+const bob = angular.module("atividade06", [require("angular-route")]);
 bob.controller("controllerlistapessoa", require("./controllerlistapessoa"))
 bob.controller("controllersalvapessoa", require("./controllersalvapessoa"))
 bob.service("pessoaservice", require("./servicos"))
@@ -21,4 +21,4 @@ bob.config($routeProvider => {
         redirectTo: "/listapessoa"
     });
 })
-angular.bootstrap(document.getElementById("app"), ['atividade04'])
+angular.bootstrap(document.getElementById("app"), ['atividade06'])

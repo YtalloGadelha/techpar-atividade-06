@@ -4,7 +4,7 @@ module.exports = function (pessoaservice) {
     
     this.salvapessoa = () => {
         pessoaservice.salvapessoa(this.novo).then((ret) => {
-            alert("pessoa salvo com id " + ret.data);
+            alert("Pessoa salvo com id " + ret.data);
             window.location.href="#!/"
         });
     };

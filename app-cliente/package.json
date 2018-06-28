@@ -1,7 +1,6 @@
 {
   "name": "app-cliente",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +15,7 @@
   "dependencies": {
     "angular": "^1.7.2",
     "angular-route": "^1.7.2"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
