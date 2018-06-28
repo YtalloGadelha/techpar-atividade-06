@@ -1,5 +1,5 @@
 const cfg = require("../knexfile")
-let env = process.env.NODE_ENV || "development" // failsafe
+let env = process.env.NODE_ENV || "development"
 const knex = require("knex")(cfg[env])
 const express = require("express")
 const morgan = require("morgan")
@@ -10,7 +10,6 @@ const cors = require("cors")
 app.use(cors())
 app.use(morgan("dev"))
 app.use(bodyParser.json())
-
 
 app.get("/hello", (req, res) => {
   console.log("hello, dear developer")
